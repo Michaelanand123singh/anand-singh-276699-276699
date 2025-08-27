@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anand Singh - Tech Entrepreneur</title>
+    <meta name="description" content="Anand Singh is a tech entrepreneur building innovative solutions. Explore my portfolio and learn more about my skills and experience.">
+    <meta property="og:title" content="Anand Singh - Tech Entrepreneur">
+    <meta property="og:description" content="Anand Singh is a tech entrepreneur building innovative solutions. Explore my portfolio and learn more about my skills and experience.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1720005487692-be6ea3136b91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MHwxfHNlYXJjaHwxfHxBbmFuZCUyMFNpbmdofGVufDF8MHx8fDE3NTYyNjk2NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080">
+    <meta property="og:url" content="https://anandsingh.com">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3B82F6',
+                        secondary: '#6D28D9',
+                        accent: '#F59E0B',
+                    },
+                },
+            },
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Anand Singh",
+          "url": "https://anandsingh.com",
+          "logo": "url_to_your_logo",
+          "description": "Tech entrepreneur building innovative solutions.",
+          "founder": "Anand Singh",
+          "foundingDate": "2024-01-26",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Anytown",
+            "addressRegion": "CA",
+            "postalCode": "91234",
+            "addressCountry": "US"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "telephone": "+1-555-123-4567",
+            "email": "info@anandsingh.com"
+          },
+          "sameAs": [
+            "https://linkedin.com/in/anandsingh",
+            "https://github.com/anandsingh"
+          ]
+        }
+    </script>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <header role="banner" class="sticky top-0 z-50 bg-white shadow-md" aria-label="Navigation">
+        <nav class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div>
+                    <a href="/" class="flex items-center">
+                       <!-- Placeholder for Logo, removed because no logo url provided -->
+                        <span class="text-xl font-bold text-gray-800">Anand Singh</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-6" aria-label="Main Navigation">
+                    <a href="#skills" class="text-gray-600 hover:text-primary transition-colors">Skills</a>
+                    <a href="#features" class="text-gray-600 hover:text-primary transition-colors">Features</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-primary transition-colors">Benefits</a>
+                    <a href="#about" class="text-gray-600 hover:text-primary transition-colors">About</a>
+                    <a href="#contact" class="text-gray-600 hover:text-primary transition-colors">Contact</a>
+                </div>
+                <button class="hidden md:inline-block bg-primary text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors" aria-label="Contact Me">Contact Me</button>
+
+                <button class="md:hidden focus:outline-none" aria-label="Open Menu">
+                    <i class="fas fa-bars text-gray-700 text-lg"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+
+        <section id="hero" class="relative py-24 md:py-32 text-center text-white" aria-label="Hero Section" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1720005487692-be6ea3136b91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MHwxfHNlYXJjaHwxfHxBbmFuZCUyMFNpbmdofGVufDF8MHx8fDE3NTYyNjk2NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080); background-size: cover; background-position: center;">
+            <div class="absolute inset-0 bg-black opacity-50"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Innovative Tech Solutions</h1>
+                <p class="text-lg md:text-xl mb-8">Crafting digital experiences and building impactful solutions for startups and beyond.</p>
+                <a href="#contact" class="inline-block bg-primary text-white px-8 py-3 rounded-md hover:bg-blue-700 transition-colors" aria-label="Get in Touch">Get in Touch</a>
+                <p class="text-xs mt-4">Image by <a href="https://unsplash.com/@yaz00ne?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" class="underline" target="_blank" rel="noopener noreferrer">yaz00ne alani</a> on <a href="https://unsplash.com/photos/a-street-sign-hanging-from-the-side-of-a-building-2hT1t4Kj-hI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" class="underline" target="_blank" rel="noopener noreferrer">Unsplash</a>
+            </div>
+        </section>
+
+        <section id="social-proof" class="bg-gray-100 py-8" aria-label="Social Proof">
+          <div class="container mx-auto px-4 flex flex-wrap justify-around items-center">
+            <img src="https://via.placeholder.com/100x40.png?text=Company+1" alt="Company 1 Logo" class="h-10 w-auto grayscale opacity-70">
+            <img src="https://via.placeholder.com/100x40.png?text=Company+2" alt="Company 2 Logo" class="h-10 w-auto grayscale opacity-70">
+            <img src="https://via.placeholder.com/100x40.png?text=Company+3" alt="Company 3 Logo" class="h-10 w-auto grayscale opacity-70">
+            <img src="https://via.placeholder.com/100x40.png?text=Company+4" alt="Company 4 Logo" class="h-10 w-auto grayscale opacity-70">
+          </div>
+        </section>
+
+        <section id="features" class="py-16" aria-label="Features">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-gray-800 text-center mb-12">Key Features</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden transition-shadow hover:shadow-lg">
+                        <img src="https://images.unsplash.com/photo-1653549549472-45bd72dcf13b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MHwxfHNlYXJjaHwyfHxBbmFuZCUyMFNpbmdofGVufDF8MHx8fDE3NTYyNjk2NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Man standing in front of graffiti wall" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Innovative Solutions</h3>
+                            <p class="text-gray-600">Developing cutting-edge solutions to tackle complex challenges in the tech industry.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden transition-shadow hover:shadow-lg">
+                        <img src="https://images.unsplash.com/photo-1556745757-8d76bdb6984b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MXwxfHNlYXJjaHwxfHxidXNpbmVzc3xlbnwxfDB8fHwxNzU2MjM5MTIxfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="White monitor on desk" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Strategic Partnerships</h3>
+                            <p class="text-gray-600">Building strong partnerships with industry leaders to deliver exceptional results.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden transition-shadow hover:shadow-lg">
+                        <img src="https://images.unsplash.com/photo-1664575602276-acd073f104c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MHwxfHNlYXJjaHwyfHxidXNpbmVzc3xlbnwxfDB8fHwxNzU2MjM5MTIxfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Person sitting at table with laptop" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Results-Driven Approach</h3>
+                            <p class="text-gray-600">Focusing on delivering measurable results that drive growth and success for clients.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="bg-gray-100 py-16" aria-label="Skills">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-gray-800 text-center mb-12">Skills & Expertise</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Frontend Development</h3>
+                        <ul class="list-disc list-inside text-gray-600">
+                            <li>HTML5, CSS3, JavaScript</li>
+                            <li>React, Angular, Vue.js</li>
+                            <li>Responsive Design</li>
+                            <li>UI/UX Principles</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Backend Development</h3>
+                        <ul class="list-disc list-inside text-gray-600">
+                            <li>Node.js, Python, Java</li>
+                            <li>RESTful APIs</li>
+                            <li>Database Management (SQL, NoSQL)</li>
+                            <li>Serverless Architecture</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Cloud Computing</h3>
+                        <ul class="list-disc list-inside text-gray-600">
+                            <li>AWS, Azure, Google Cloud</li>
+                            <li>DevOps Practices</li>
+                            <li>Containerization (Docker, Kubernetes)</li>
+                            <li>Cloud Security</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="benefits" class="py-16" aria-label="Benefits">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-gray-800 text-center mb-12">Key Benefits</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                    <div class="flex items-start">
+                        <div class="mr-4">
+                            <i class="fas fa-rocket text-3xl text-primary"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Accelerated Growth</h3>
+                            <p class="text-gray-600">Rapidly scale your business with innovative solutions tailored to your needs.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start">
+                        <div class="mr-4">
+                            <i class="fas fa-lightbulb text-3xl text-primary"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Innovative Solutions</h3>
+                            <p class="text-gray-600">Gain a competitive edge with cutting-edge technologies and strategic insights.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start">
+                        <div class="mr-4">
+                            <i class="fas fa-chart-line text-3xl text-primary"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Measurable Results</h3>
+                            <p class="text-gray-600">Track your progress and achieve your goals with data-driven strategies and transparent reporting.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start">
+                        <div class="mr-4">
+                            <i class="fas fa-users text-3xl text-primary"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Dedicated Support</h3>
+                            <p class="text-gray-600">Receive personalized support and guidance from a team of experienced professionals.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="use-cases" class="bg-gray-100 py-16" aria-label="Use Cases">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-gray-800 text-center mb-12">Use Cases</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">E-commerce Platform</h3>
+                        <p class="text-gray-600">Developing a scalable e-commerce platform with advanced features and seamless user experience.</p>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Data Analytics Dashboard</h3>
+                        <p class="text-gray-600">Creating a real-time data analytics dashboard to visualize key metrics and gain valuable insights.</p>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Mobile App Development</h3>
+                        <p class="text-gray-600">Building native mobile apps for iOS and Android with intuitive interfaces and robust functionality.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-16" aria-label="Testimonials">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-gray-800 text-center mb-12">Testimonials</h2>
+                <div class="bg-white rounded-lg shadow-md p-8">
+                    <p class="text-gray-700 italic text-center mb-4">"Anand is a highly skilled and dedicated tech entrepreneur. His expertise in building innovative solutions is truly remarkable."</p>
+                    <p class="text-gray-800 font-semibold text-center">- John Doe, CEO of Example Company</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="bg-gray-100 py-16" aria-label="About Me">
+            <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">About Anand Singh</h2>
+                    <p class="text-gray-600 mb-4">I'm a tech entrepreneur passionate about building innovative solutions that solve real-world problems. With a background in software engineering and a strong entrepreneurial spirit, I'm dedicated to helping businesses thrive in the digital age.</p>
+                    <p class="text-gray-600">I am driven by the potential of technology to transform industries and improve lives. I believe in collaboration, innovation, and a relentless pursuit of excellence.</p>
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1556740772-1a741367b93e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MXwxfHNlYXJjaHwxfHxidXNpbmVzc3xlbnwxfDB8fHwxNzU2MTgwNjU1fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Woman holding magnetic card" class="w-full h-64 object-cover rounded-lg shadow-md">
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="py-16" aria-label="FAQ">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-gray-800 text-center mb-12">Frequently Asked Questions</h2>
+
+                <div class="space-y-4">
+                  <div class="bg-white rounded-lg shadow-md p-4">
+                    <button class="w-full text-left" onclick="toggleFAQ('faq1')">
+                      <div class="flex items-center justify-between">
+                        <h3 class="text-xl font-semibold text-gray-800">What services do you offer?</h3>
+                        <i class="fas fa-chevron-down text-gray-500"></i>
+                      </div>
+                    </button>
+                    <div id="faq1" class="mt-2 hidden">
+                      <p class="text-gray-600">I offer a range of services including web development, mobile app development, cloud computing, and strategic consulting.</p>
+                    </div>
+                  </div>
+
+                  <div class="bg-white rounded-lg shadow-md p-4">
+                    <button class="w-full text-left" onclick="toggleFAQ('faq2')">
+                      <div class="flex items-center justify-between">
+                        <h3 class="text-xl font-semibold text-gray-800">What industries do you work with?</h3>
+                        <i class="fas fa-chevron-down text-gray-500"></i>
+                      </div>
+                    </button>
+                    <div id="faq2" class="mt-2 hidden">
+                      <p class="text-gray-600">I work with startups and established businesses across various industries including e-commerce, healthcare, and finance.</p>
+                    </div>
+                  </div>
+
+                  <div class="bg-white rounded-lg shadow-md p-4">
+                    <button class="w-full text-left" onclick="toggleFAQ('faq3')">
+                      <div class="flex items-center justify-between">
+                        <h3 class="text-xl font-semibold text-gray-800">How can I get in touch?</h3>
+                        <i class="fas fa-chevron-down text-gray-500"></i>
+                      </div>
+                    </button>
+                    <div id="faq3" class="mt-2 hidden">
+                      <p class="text-gray-600">You can reach out to me through the contact form on this website or by sending an email to info@anandsingh.com.</p>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact-cta" class="py-16 bg-primary text-white text-center" aria-label="Final Call to Action">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-6">Ready to take your business to the next level?</h2>
+                <p class="text-lg mb-8">Get in touch to discuss your project and explore how I can help you achieve your goals.</p>
+                <a href="#contact" class="inline-block bg-white text-primary px-8 py-3 rounded-md hover:bg-gray-100 transition-colors" aria-label="Contact Me">Contact Me</a>
+            </div>
+        </section>
+
+        <section id="contact" class="py-16" aria-label="Contact Form">
+            <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Contact Me</h2>
+                    <form class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary focus:outline-none" placeholder="Your name">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary focus:outline-none" placeholder="Your email">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                            <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary focus:outline-none" placeholder="Your message"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-primary text-white py-3 rounded-md hover:bg-blue-700 transition-colors">Send Message</button>
+                    </form>
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3OTYzMTZ8MHwxfHNlYXJjaHwxfHxvZmZpY2V8ZW58MXwwfHx8MTc1NjE4MTAxNXww&ixlib=rb-4.1.0&q=80&w=1080" alt="Turned off laptop on table" class="w-full h-64 object-cover rounded-lg shadow-md">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-900 text-white py-12" role="contentinfo">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Anand Singh</h3>
+                    <p class="text-gray-400">Tech entrepreneur passionate about building innovative solutions that solve real-world problems.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#about" class="text-gray-400 hover:text-white">About</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-white">Features</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Resources</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Support</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Connect</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin mr-2"></i>LinkedIn</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-github mr-2"></i>GitHub</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter mr-2"></i>Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Anand Singh. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleFAQ(id) {
+          var element = document.getElementById(id);
+          element.classList.toggle("hidden");
+        }
+    </script>
+
+</body>
+</html>
